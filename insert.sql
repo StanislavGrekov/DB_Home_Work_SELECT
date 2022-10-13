@@ -27,9 +27,6 @@ INSERT INTO music_genre(id, genre)
 VALUES (4,'Регги');
 INSERT INTO music_genre(id, genre) 
 VALUES (5,'Джаз');
-INSERT INTO music_genre(id, genre) 
-VALUES (5,'Джаз');
-
 
 -- Таблица genre_musician
 INSERT INTO genre_musician
@@ -68,7 +65,7 @@ VALUES (6, 'Артист', '2016-01-01');
 INSERT INTO album(id, album_name, date_release) 
 VALUES (7, 'Legend', '2019-01-01');
 INSERT INTO album(id, album_name, date_release) 
-VALUES (8, 'Big Staff', '1996-01-01');
+VALUES (8, 'Big Staff', '2020-01-01');
 
 -- Таблица track
 INSERT INTO track (id, id_album, track_name,track_duration) 
